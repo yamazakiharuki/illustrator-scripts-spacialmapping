@@ -1,21 +1,23 @@
 // yamac-spacialmapping-like.jsx
 //
-// Microsoft HoloLensのSpacial Mapping風のビジュアルを
+// Microsoft HoloLensのSpacial Mapping風ビジュアルを
 // ドロネー三角形分割を利用して作成します。
 //
 // Copyright 2018 *Haruki Yamazaki
 // This script is distributed under the MIT License.
 //
-//
+// *
 // このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。
 // http://github.com/shspage
 // Licensed under The MIT License
-//
+// *
 // ironwallabyさん作の'delaunay.js'をincludeする必要があります。
 // 以下よりダウンロードし、このスクリプトと同じディレクトリに格納してください。
 // https://github.com/ironwallaby/delaunay
 // Licensed under CC0 1.0 Universal (CC0 1.0)
 //
+// 2018.07.27
+
 
 //@include "delaunay.js"
 
@@ -60,7 +62,7 @@ function main(){
       len = getT4Len(q, 0) / n;
       if(len <= 0) continue;
       redrawflg = true;
-    
+
       for(k = 1; k < n; k++) {
         ar.push( getT4Len(q, len * k) );
       }
@@ -158,9 +160,10 @@ function main(){
 }
 
 
-// 対象となるオブジェクトのパスを分割する（アンカーポイントを増やす）関数群です。
-// Hiroyuki Satoさんのスクリプトを元にしています。
-// http://github.com/shspage
+//
+// 対象となるオブジェクトのパスを
+// 分割する（アンカーポイントを増やす）関数群です。
+//
 
 function addPnts(pi, pnts, need2sort) {
   var p = pi.pathPoints;
@@ -398,7 +401,7 @@ function extractPaths(s, pp_length_limit, paths) {
 
     } else if(s[i].typename == "GroupItem") {
       extractPaths(s[i].pageItems, pp_length_limit, paths);
-    
+
     } else if(s[i].typename == "CompoundPathItem") {
       extractPaths(s[i].pathItems, pp_length_limit , paths);
     }
@@ -415,9 +418,10 @@ function parseIdx(p, n) {
 }
 
 
-// 対象となるオブジェクトのアンカーポイントに任意のオブジェクトを複製配置するための関数群です。
-// Hiroyuki Satoさんのスクリプトを元にしています。
-// http://github.com/shspage
+//
+// 対象となるオブジェクトのアンカーポイントに
+// 任意のオブジェクトを複製配置するための関数群です。
+//
 
 function isSelected(p){
   return p.selected == PathPointSelection.ANCHORPOINT;
@@ -432,10 +436,10 @@ function extractPaths(s, pp_length_limit, paths){
       if(pp_length_limit > 0
          && s[i].pathPoints.length <= pp_length_limit) continue;
       paths.push( s[i] );
-    
+
     } else if(s[i].typename == "GroupItem"){
       extractPaths( s[i].pageItems, pp_length_limit, paths);
-    
+
     } else if(s[i].typename == "CompoundPathItem"){
       extractPaths( s[i].pathItems, pp_length_limit, paths);
     }
@@ -443,9 +447,10 @@ function extractPaths(s, pp_length_limit, paths){
 }
 
 
+//
 // ドロネー三角形分割関連の関数群です。
-// Hiroyuki Satoさんのスクリプトを元にしています。
-// http://github.com/shspage
+//
+//
 
 function getCenter(p) {
   var gb = p.geometricBounds;  // left, top, right, bottom
