@@ -2,6 +2,9 @@
 ## yamac-spacialmapping-like.jsx
 Microsoft HoloLensのSpacial Mapping風のビジュアルをドロネー三角形分割を利用して作成します。
 
+![スクリプト実行結果](https://github.com/yamazakiharuki/illustrator-scripts-spacialmapping/blob/master/readme-images/result.png "スクリプト実行結果")
+
+
 **このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。**  
 http://github.com/shspage  
 Licensed under The MIT License
