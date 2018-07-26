@@ -2,13 +2,13 @@
 ## yamac-spacialmapping-like.jsx
 Microsoft HoloLensのSpacial Mapping風のビジュアルをドロネー三角形分割を利用して作成します。
 
-このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。
-http://github.com/shspage
+このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。  
+http://github.com/shspage  
 Licensed under The MIT License
 
-ironwallabyさん作の'delaunay.js'をincludeする必要があります。
-以下よりダウンロードし、このスクリプトと同じディレクトリに格納してください。
-https://github.com/ironwallaby/delaunay
+ironwallabyさん作の'delaunay.js'をincludeする必要があります。  
+以下よりダウンロードし、このスクリプトと同じディレクトリに格納してください。  
+https://github.com/ironwallaby/delaunay  
 Licensed under CC0 1.0 Universal (CC0 1.0)
 
 ---
