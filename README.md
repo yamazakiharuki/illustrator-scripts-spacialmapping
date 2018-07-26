@@ -1,6 +1,6 @@
-# illustrator-scripts-spatial-mapping
+# spatial-mapping-like
 ## yamac-spatial-mapping-like.jsx
-Microsoft HoloLensのSpacial Mapping風のビジュアルをドロネー三角形分割を利用して作成します。
+Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形分割を利用して作成する、Adobe Illustrator用スクリプトです。
 
 <img src="readme-images/result.png" alt="スクリプト実行結果" width="320">
 
