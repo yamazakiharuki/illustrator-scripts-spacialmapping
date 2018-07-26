@@ -4,6 +4,7 @@ Microsoft HoloLensのSpacial Mapping風のビジュアルをドロネー三角�
 
 <img src="readme-images/result.png" alt="スクリプト実行結果" width="320">
 
+---
 **このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。**  
 http://github.com/shspage  
 Licensed under The MIT License
