@@ -5,7 +5,8 @@ Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形�
 <img src="readme-images/result.png" alt="スクリプト実行結果" width="320">
 
 ### 使い方
-1.任意の図形を
+1.任意の図形を用意する（文字はアウトライン化を行う）
+<img src="readme-images/usage01.png" alt="任意の画像を用意" width="320">
 
 
 ---
