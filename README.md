@@ -5,17 +5,17 @@ Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形�
 <img src="readme-images/result.png" alt="スクリプト実行結果" width="320">
 
 ### 使い方
-#### 1.任意の図形を用意する  
+#### 1.任意のイラストレーションを用意する  
 <img src="readme-images/usage01.png" alt="任意の画像を用意" width="320">  
 
-#### 2.任意の図形を用意する  
-<img src="readme-images/usage03.png" alt="任意の画像を用意" width="320">  
+#### 2.「ドロネー点」（アンカーポイント）に配置する図形をイラストレーションの最前面に重ねる
+<img src="readme-images/usage03.png" alt="ドロネー点用図形を配置" width="320">  
 
-#### 3.任意の図形を用意する  
+#### 3.ドロネー三角形分割したいイラストレーションとドロネー点図形を選択し、スクリプトを実行する
 <img src="readme-images/usage04.png" alt="任意の画像を用意" width="320">  
 
-#### 4.任意の図形を用意する  
-<img src="readme-images/usage05.png" alt="任意の画像を用意" width="320">  
+#### 4.ドロネー三角形分割されたイラストレーション  
+<img src="readme-images/usage05.png" alt="任意の画像を用意" width="320"> 
 
 ---
 **このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。**  
