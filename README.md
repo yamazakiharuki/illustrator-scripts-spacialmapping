@@ -4,6 +4,10 @@ Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形�
 
 <img src="readme-images/result.png" alt="スクリプト実行結果" width="320">
 
+### 使い方
+1.任意の図形を
+
+
 ---
 **このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。**  
 http://github.com/shspage  
