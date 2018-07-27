@@ -9,7 +9,13 @@ Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形�
 <img src="readme-images/usage01.png" alt="任意の画像を用意" width="320">  
 
 #### 2.任意の図形を用意する  
-<img src="readme-images/usage02.png" alt="任意の画像を用意" width="320">  
+<img src="readme-images/usage03.png" alt="任意の画像を用意" width="320">  
+
+#### 3.任意の図形を用意する  
+<img src="readme-images/usage04.png" alt="任意の画像を用意" width="320">  
+
+#### 4.任意の図形を用意する  
+<img src="readme-images/usage05.png" alt="任意の画像を用意" width="320">  
 
 ---
 **このスクリプトはHiroyuki Satoさん作のスクリプトを元にしています。**  
