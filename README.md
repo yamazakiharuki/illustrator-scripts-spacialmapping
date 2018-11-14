@@ -27,8 +27,8 @@ Microsoft HoloLensのSpacial Mapping風ビジュアルをドロネー三角形�
 http://github.com/shspage  
 Licensed under The MIT License
 
-**ironwallabyさん作の'delaunay.js'をincludeする必要があります。**   
-以下よりダウンロードし、このスクリプトと同じディレクトリに格納してください。  
+**ironwallabyさん作の'delaunay.js'をincludeしています。**   
+以下で配布しているスクリプトを同梱しています。  
 https://github.com/ironwallaby/delaunay  
 Licensed under CC0 1.0 Universal (CC0 1.0)
 
